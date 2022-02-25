@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:wght@700&display=swap");
+@layer components {
+  h1 {
+    @apply font-lora font-bold text-[34px] leading-[46px];
+  }
+  h2 {
+    @apply font-lora font-bold text-[28px] leading-[30px];
+  }
+  h3 {
+    @apply font-lora font-bold text-[26px] leading-[30px];
+  }
+  h4 {
+    @apply font-lora font-bold text-[24px] leading-[26px];
+  }
+  h5 {
+    @apply font-lora font-bold text-[22px] leading-[24px];
+  }
+
+  .description {
+    @apply font-lora font-normal text-xs leading-[20px];
+  }
+  p {
+    @apply font-lora font-normal text-[20px] leading-[25px];
+  }
+  .body1 {
+    @apply font-roboto font-bold text-[10px] leading-[12px] uppercase;
+  }
+  .body2 {
+    @apply font-roboto font-normal text-xs leading-[14px];
+  }
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
