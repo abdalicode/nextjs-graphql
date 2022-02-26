@@ -1,7 +1,10 @@
 ## What is this?
 
-This is a very simple blog project with next.js, graphql and tailwindcss
-[live demo](https://nextjs-blog-simple.herokuapp.com/)
+This is a very simple blog project with next.js, graphql and tailwindcss.
+
+[live demo](https://nextjs-blog-simple.herokuapp.com/).
+
+[Figma design](https://www.figma.com/community/file/1036294505314600437)
 
 ## Getting Started
 
