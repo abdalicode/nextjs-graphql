@@ -1,6 +1,6 @@
 ## What is this?
 
-This is a very simple blog project with next.js, graphql and tailwindcss.
+This is a minimal blog project with next.js, graphql and tailwindcss.
 
 [live demo](https://nextjs-blog-simple.herokuapp.com/).
 
